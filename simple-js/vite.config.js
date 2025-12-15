@@ -4,7 +4,5 @@ export default defineConfig({
   build: {
     minify: false
   },
-  server: {
-    port: 4000
-  }
+  envPrefix: 'COOL_APP_'
 })

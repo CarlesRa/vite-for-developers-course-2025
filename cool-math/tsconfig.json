@@ -12,7 +12,12 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    // "noEmit": true,
+
+    //Emit file
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
 
     /* Linting */
     "strict": true,

@@ -1,27 +1,31 @@
 {
   "name": "cool-math-test-library",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
   ],
-  "module": "./dist/cool-math.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/cool-math-test-library.js",
   "exports": {
     ".": {
-      "import": "./dist/cool-math.js"
+      "import": "./dist/cool-math-test-library.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^25.0.2",
     "@types/uuid": "^10.0.0",
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
   },
   "dependencies": {
+    "cool-math-test-library": "^0.0.0",
     "uuid": "^13.0.0"
   }
 }

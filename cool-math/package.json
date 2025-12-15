@@ -1,6 +1,6 @@
 {
   "name": "cool-math-test-library",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist"
@@ -25,7 +25,7 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
-    "cool-math-test-library": "^0.0.0",
+    "cool-math-test-library": "^0.0.4",
     "uuid": "^13.0.0"
   }
 }

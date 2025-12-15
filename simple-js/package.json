@@ -11,5 +11,8 @@
   "devDependencies": {
     "vite": "^7.2.4",
     "vite-plugin-remove-console": "^2.2.0"
+  },
+  "dependencies": {
+    "cool-math-test-library": "^0.0.0"
   }
 }

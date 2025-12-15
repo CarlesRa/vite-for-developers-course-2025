@@ -1,2 +1,6 @@
 Vite commands:
   Creae project: npm create vite@latest
+  Start project: npm run dev
+  Build project: npm run Build
+  Preview project: npm run Preview
+  Build with specific configurations (.env): npm run build -- --mode [config_name]

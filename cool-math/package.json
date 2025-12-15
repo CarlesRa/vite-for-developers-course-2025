@@ -1,6 +1,5 @@
 {
-  "name": "cool-math",
-  "private": true,
+  "name": "cool-math-test-library",
   "version": "0.0.0",
   "type": "module",
   "files": [

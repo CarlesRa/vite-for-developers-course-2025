@@ -16,13 +16,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^25.0.2",
     "@types/uuid": "^10.0.0",
     "typescript": "~5.9.3",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vitest": "^4.0.15"
   },
   "dependencies": {
     "cool-math-test-library": "^0.0.4",

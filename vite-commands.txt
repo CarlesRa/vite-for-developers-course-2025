@@ -8,3 +8,7 @@ Vite commands:
   Bundle Visualizer
     npx vite-bundle-visualizer
     npx vite-bundle-visualizer -t network
+  
+  Host mode (for using external devices)
+    vite --host
+    vite preview --host

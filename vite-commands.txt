@@ -4,3 +4,7 @@ Vite commands:
   Build project: npm run Build
   Preview project: npm run Preview
   Build with specific configurations (.env): npm run build -- --mode [config_name]
+
+  Bundle Visualizer
+    npx vite-bundle-visualizer
+    npx vite-bundle-visualizer -t network

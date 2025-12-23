@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { WatermarkPlugin } from './plugins/WatermarkPlugin';
+import Inspect from 'vite-plugin-inspect'
 
 function manualChunks(id: any) {
   if (id.includes('node_modules')) {
@@ -17,6 +18,7 @@ export default defineConfig({
       color: 'red',
       text: 'test stage'
     }),
+    Inspect(),
   ],
   build: {
     rollupOptions: {
